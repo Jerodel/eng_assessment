@@ -1,0 +1,33 @@
+
+.topContainer {
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+ 
+}
+
+
+
+.inputField {
+  width: 50%;
+  height: 3em;
+  mask-type: none;
+  
+}
+
+
+button{
+  font-size: 500;
+  background-color: none;
+  width: 8em;
+  padding: 1em;
+  font-weight: 700;
+  margin-right: 2em;
+}
+
+.card{
+  color: black;
+}
