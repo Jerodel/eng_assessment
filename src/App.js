@@ -1,48 +1,32 @@
 
+import React, {useState} from 'react';
+import { gql, useLazyQuery } from "apollo/client";
 import './App.css';
 
-const buttons = ["White", "Yellow", "Green", "Document"];
-
-const market =[
-  {
-    date: "02- June - 2022",
-    products: [
-      {
-        id: "1",
-        name: "iPhone 13",
-        color: "white",
-
-      },
-      {
-        id: "2",
-        name: "iPhone 8",
-        color: "black",
-      },      
-      {
-        id: "3",
-        name: "iPhone 10",
-        color: "yellow",
-      }      
-    ],
-  },
-  {
-    date: "25th-Aug. 2021",
-    products: [
-      {
-        id: "4",
-        name: "Oppo xl",
-        color: "black"
-      }
-    ]
+const GET_CONSUMER = gql`
+queryGetConsumer($name: string!){
+  consumer(filter: {
+    name: "David Bello"
+  }) {
+    customers
   }
-]
+}
+`
 function App() {
+  const [name, setName ] = useState("");
+  const [getName, {loading, error, data, called}] = useLazyQuery(GET_CONSUMERS, {
+    variables: {
+      name
+    }
+  })
   return (
     <div className="App">
      <header>
       <div className = "topContainer">
         <div className="inputDiv">
-        <input className="inputField" type="text" placeholder="Search"/>
+        <input className="inputField" type="text" value = {name} 
+        onChange = {(e) => setName(e.target.value)}
+        placeholder="Search"/>
         </div>
 
         <div className = "filter" style={{marginTop: "1em"}}>
@@ -59,11 +43,11 @@ function App() {
      </header>
 
         <div className="elementContainer">
-          {market.map((item) => {
+          {customers.map((item) => {
            return <div className ="card" key={item.index} > 
              
                <p>{item.date}</p> 
-               <p>{item.products.map((product) => (
+               <p>{item.customer.map((product) => (
                 <p>{product.name}</p>
                ))}</p>
 

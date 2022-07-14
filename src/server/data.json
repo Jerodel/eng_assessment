@@ -1,0 +1,160 @@
+{
+    "customers":[
+        {
+           
+            "date": "25-Jan-2022",
+                "consumers": [ {
+
+                "id": "1",
+                "name": "David Bello",
+                "email": "david@gmail.com",
+                "age": "25"
+                },
+
+                {
+                    "id": "2",
+                    "name": "Pascal Evelyn",
+                    "email": "evelyn@gmail.com",
+                    "age": "22"
+                },
+                {
+                    "id": "3",
+                    "name": "Ada Abraham",
+                    "email": "abraham@gmail.com",
+                    "age": "21"
+                },
+                {
+                    "id": "4",
+                    "name": "Robert Don",
+                    "email": "robert@yahoo.com",
+                    "age": "25"
+                }
+            ]
+            },
+            {
+           
+                "date": "27-Feb-2022",
+                    "consumers": [ {
+    
+                    "id": "5",
+                    "name": "Deborah Augustine",
+                    "email": "debby@gmail.com",
+                    "age": "20"
+                    },
+    
+                    {
+                        "id": "6",
+                        "name": "Joan Esther",
+                        "email": "joan@gmail.com",
+                        "age": "22"
+                    },
+                    {
+                        "id": "7",
+                        "name": "Adekole Joseph",
+                        "email": "jose@gmail.com",
+                        "age": "28"
+                    },
+                    {
+                        "id": "8",
+                        "name": "Hakim ThankGod",
+                        "email": "Hakim@yahoo.com",
+                        "age": "29"
+                    }
+
+                ]
+                },
+                {
+           
+                    "date": "15-March-2022",
+                        "consumers": [ {
+        
+                        "id": "9",
+                        "name": "Adegoke Jerry",
+                        "email": "lovejerry@gmail.com",
+                        "age": "18"
+                        },
+        
+                        {
+                            "id": "10",
+                            "name": "Giwa Jeff",
+                            "email": "jerr@gmail.com",
+                            "age": "30"
+                        },
+                        {
+                            "id": "11",
+                            "name": "Onoja Faith",
+                            "email": "faith@gmail.com",
+                            "age": "29"
+                        },
+                        {
+                            "id": "12",
+                            "name": "Kebby JOe",
+                            "email": "joely@gmail.com",
+                            "age": "25"
+                        }
+                    ]
+                    },
+                    {
+           
+                        "date": "2-April-2022",
+                            "consumer": [ {
+            
+                            "id": "13",
+                            "name": "Astrof Gof",
+                            "email": "gene@gmail.com",
+                            "age": "21"
+                            },
+            
+                            {
+                                "id": "14",
+                                "name": "Prescilia Joseph",
+                                "email": "joseph@gmail.com",
+                                "age": "39"
+                            },
+                            {
+                                "id": "15",
+                                "name": "Ada Federick",
+                                "email": "federick@gmail.com",
+                                "age": "29"
+                            },
+                            {
+                                "id": "16",
+                                "name": "Benita Yusuf",
+                                "email": "bennyyusuf@yahoo.com",
+                                "age": "16"
+                            }
+                        ]
+                        },
+                        {
+           
+                            "date": "17-May-2022",
+                                "consumers": [ {
+                
+                                "id": "17",
+                                "name": "Funke Akin",
+                                "email": "akin@gmail.com",
+                                "age": "25"
+                                },
+                
+                                {
+                                    "id": "18",
+                                    "name": "Ojonugwa Giwa",
+                                    "email": "oj.g@gmail.com",
+                                    "age": "22"
+                                },
+                                {
+                                    "id": "19",
+                                    "name": "Blessing Kab",
+                                    "email": "bleka@gmail.com",
+                                    "age": "19"
+                                },
+                                {
+                                    "id": "20",
+                                    "name": "Daniel Juliet",
+                                    "email": "julian@gmail.com",
+                                    "age": "40"
+                                }
+                            ]
+                            }
+    ]
+}
